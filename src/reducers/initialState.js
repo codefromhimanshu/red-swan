@@ -21,3 +21,7 @@ export const employeeDetailInitialState = {
 export const employeeListInitialState = {
   data: []
 }
+
+export const tweetListInitialState = {
+  tweetList: []
+}

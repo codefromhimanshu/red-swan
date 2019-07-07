@@ -2,6 +2,7 @@ import { increment, incrementAsync } from './increment'
 import { decrement, decrementAsync } from './decrement'
 import { clearEmployeeList, requestEmployeeList } from './employeeList'
 import { clearEmployeeDetail, requestEmployeeDetail } from './employeeDetail'
+import { requestTweetList } from './tweets'
 
 export {
   increment,
@@ -11,5 +12,6 @@ export {
   clearEmployeeList,
   requestEmployeeList,
   clearEmployeeDetail,
-  requestEmployeeDetail
+  requestEmployeeDetail,
+  requestTweetList
 }

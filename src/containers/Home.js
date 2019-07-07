@@ -7,8 +7,6 @@ import {
   decrement,
   decrementAsync
 } from '../actions'
-import { push } from 'connected-react-router'
-import { ABOUT_PAGE_URL } from '../constants/url'
 
 function mapStateToProps(state) {
   return {
@@ -24,8 +22,7 @@ function mapDispatchToProps(dispatch) {
       increment,
       incrementAsync,
       decrement,
-      decrementAsync,
-      linkToAboutPage: () => push(ABOUT_PAGE_URL)
+      decrementAsync
     },
     dispatch
   )

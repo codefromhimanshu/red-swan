@@ -1,0 +1,37 @@
+.tweet-card.ant-card {
+  margin: 15px;
+}
+
+.tweet-card.ant-card .actions {
+  visibility: hidden;
+  display: flex;
+}
+
+.tweet-card.ant-card .actions .action-item {
+  margin-right: 5px;
+}
+
+.tweet-card.ant-card .actions .action-item .anticon {
+  margin-left: 2px;
+}
+
+.tweet-card.ant-card:hover .actions {
+  visibility: visible;
+}
+
+.tweet-card.ant-card .subtle {
+  color: #999;
+}
+
+.tweet-card.ant-card .author {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.tweet-card.ant-card .author .ant-avatar {
+  margin-right: 5px;
+}
+
+.tweet-card.ant-card .content {
+  color: #333;
+}
